@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'Electrolize';
+    src: url('../fonts/electrolize-v14-latin-regular.eot');
+    src: url('../fonts/electrolize-v14-latin-regular.eot') format('embedded-opentype'),
+        url('../fonts/electrolize-v14-latin-regular.woff2') format('woff2'),
+        url('../fonts/electrolize-v14-latin-regular.woff') format('woff'),
+        url('../fonts/electrolize-v14-latin-regular.ttf') format('truetype'),
+        url('../fonts/electrolize-v14-latin-regular.svg') format('svg');
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+a{text-decoration: none;}
+
+body {
+    font-family: "Electrolize";
+    /* background-image: url('../img/blurred-abstract-bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #0c1226;
+}
+
+.title, .subtitle{
+    font-family: 'Chakra Petch', sans-serif;
+}

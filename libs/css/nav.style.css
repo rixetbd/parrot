@@ -1,0 +1,72 @@
+.navbar{
+    margin-top: 10px;
+    border-bottom: 1px solid #FFFFFF14;
+}
+
+.footer{
+    color: #fff;
+    padding: 15px 0;
+    border-top: 1px solid #FFFFFF14;
+    margin-top: 15px;
+}
+
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{color: #fff;}
+
+.footer .row ,
+.navbar .row {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.navbar ul{
+    float: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    font-family: "Electrolize";
+    color: azure;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+
+.navbar .social {
+    float: right;
+}
+
+.footer .social ul li,
+.navbar .social ul li{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #f0ffff4d;
+    border-radius: 3px;
+    display: inline-flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.footer .social ul li:hover,
+.navbar .social ul li:hover{
+    background-color: #f0ffff4d;
+}
+
+.footer .social ul li a,
+.navbar .social ul li a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: "Electrolize";
+    color: azure;
+    font-size: 16px;
+    font-weight: 400;
+}
