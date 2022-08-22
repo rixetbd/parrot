@@ -91,7 +91,7 @@
 
     }
 
-    .header .right_side div.img_box {
+    .header .right_side div.img_box img{
         width: 80%;
         padding: 50px;
         background: #FFFFFF14;

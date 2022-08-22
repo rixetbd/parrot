@@ -19,6 +19,7 @@
     
     <?php include 'includes/navbar.php'; ?>
     <?php include 'includes/header.php'; ?>
+    <?php include 'includes/service.php'; ?>
     <?php include 'includes/footer.php'; ?>
 
 
