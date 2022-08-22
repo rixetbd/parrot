@@ -1,0 +1,51 @@
+.box_effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0 20px;
+    cursor: pointer;
+    border: 2px solid #FFFFFF42;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+}
+
+.box_effect:hover {
+    border: 2px solid rgba(0, 160, 80, 0);
+}
+
+.box_effect::before,
+.box_effect::after {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    -webkit-transform: scale(0);
+    transition: 0.5s;
+}
+
+.box_effect::before {
+    border-bottom: 2px solid #0b7;
+    border-left: 2px solid #0b7;
+    -webkit-transform-origin: 0 100%;
+}
+
+.box_effect::after {
+    border-top: 2px solid #0b7;
+    border-right: 2px solid #0b7;
+    -webkit-transform-origin: 100% 0%;
+}
+
+.box_effect:hover::after,
+.box_effect:hover::before {
+    -webkit-transform: scale(1);
+    border-radius: 5px;
+}

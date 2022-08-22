@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="libs/css/mainstyle.css">
 
     <link rel="stylesheet" href="libs/css/nav.style.css">
+    <link rel="stylesheet" href="libs/css/card.effect.css">
 </head>
 
 <body>

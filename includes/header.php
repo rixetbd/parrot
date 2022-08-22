@@ -13,7 +13,7 @@
                 <button class="gradient_btn">About Us</button>
                 <button class="gradient_btn">Hire us</button>
 
-                <div class="row header_counter_box mt-4">
+                <div class="row header_counter_box mt-4 box_effect border_radius_15">
                     <div class="col-4 header_counter">
                         <h4 class="count_number">15<span>+</span></h4>
                         <h4 class="count_subtitle">Total Projects</h4>
@@ -91,7 +91,7 @@
 
     }
 
-    .header .right_side div.img_box img {
+    .header .right_side div.img_box {
         width: 80%;
         padding: 50px;
         background: #FFFFFF14;
@@ -102,9 +102,8 @@
     .header_counter_box {
         padding: 20px;
         background: #FFFFFF14;
-        border: 3px solid #FFFFFF42;
-        border-radius: 15px;
     }
+
 
     .header_counter {
         color: #fff;
